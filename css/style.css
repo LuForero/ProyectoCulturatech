@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+
 body{
     margin: 0;
     margin: 0;
@@ -28,18 +36,15 @@ header{
     height: 70px;
     margin-right: 40px;
 }
-
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-    font-size: light;
-    font-family: Arial, sans-serif;
-    font-weight: 100;
-    list-style: none;
-    font-style: normal;
+.navegation ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: white;
 }
 
-nav a:hover{
+
+.navegation a:hover{
     color: #FEEA12;
 }
 
@@ -55,6 +60,7 @@ nav a:hover{
 
 .container{
     display: flex;
+    
     background: linear-gradient(to right, #F16F7B, #8B4047);
     margin: 0px;   
 }
